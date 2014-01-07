@@ -1,0 +1,82 @@
+.centered {
+	text-align: center;
+}
+
+.buttonBase {
+	color: white;
+	border: #000;
+	position: relative;
+    text-decoration: none;
+    background-color: #2fa1d7; 
+    font-family: Helvetica, Verdana, Geneva, sans-serif;
+	font-weight: 600;
+	margin: 10px;
+	text-align: center;
+	z-index:1000;
+	cursor: pointer;
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+	
+	-webkit-transition: all .1s ease;
+	-moz-transition: all .1s ease;
+	-ms-transition: all .1s ease;
+	-o-transition: all .1s ease;
+	transition: all .1s ease;
+	
+	 -webkit-box-shadow:0 0 4px #000;/*safari and Chrome*/
+     -moz-box-shadow:0 0 4px #000; /*Mozilla*/
+     -o-box-shadow:0 0 4px #000; /*Opera*/
+     -ms-box-shadow:0 0 4px #000; /*Ms IE*/
+     box-shadow:0 0 4px #000; /*W3C*/
+     -webkit-border-radius:15px;/*safari and Chrome*/
+     -moz-border-radius:15px; /*Mozilla*/
+     -o-box-border-radius:15px; /*Opera*/
+     -ms-box-border-radius:15px; /*Ms IE*/
+     border-radius:15px; /*W3C*/
+}
+
+.buttonBase:active {
+    -webkit-box-shadow: 0px 3px 0px #277196, 0px 3px 6px rgba(0,0,0,.9);
+    -moz-box-shadow: 0px 3px 0px #277196, 0px 3px 6px rgba(0,0,0,.9);
+    box-shadow: 0px 3px 0px #277196, 0px 3px 6px rgba(0,0,0,.9);
+    top: 6px;
+}
+
+.buttonBase:hover {
+	opacity: 0.8;
+}
+
+.buttonVerySmall {
+    font-weight: 500;
+    font-size: 11px;
+    padding-bottom:4px; padding-top:4px; padding-left:6px; padding-right:6px; 
+    -webkit-box-shadow: 0px 3px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 3px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+    box-shadow: 0px 3px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+	
+	}
+
+.buttonSmall {
+    font-size: 18px;
+    padding-bottom:7px; padding-top:7px; padding-left:15px; padding-right:15px; 
+    -webkit-box-shadow: 0px 5px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 5px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+    box-shadow: 0px 5px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+	}
+	
+.buttonMedium {
+    font-size: 22px;
+    padding-bottom:7px; padding-top:7px; padding-left:15px; padding-right:15px;
+    -webkit-box-shadow: 0px 5px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 5px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+    box-shadow: 0px 5px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+	}
+
+	
+.buttonLarge {
+    font-size: 30px;
+    padding-bottom:10px; padding-top:10px; padding-left:20px; padding-right:20px; 
+    -webkit-box-shadow: 0px 5px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+    -moz-box-shadow: 0px 5px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+    box-shadow: 0px 5px 0px #277196, 0px 9px 17px rgba(0,0,0,.7);
+	}
