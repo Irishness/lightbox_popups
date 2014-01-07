@@ -1,8 +1,9 @@
-Simple Lightboxes Tool & Library by Jon O'Shaughnessy
+<h2><b>Simple Lightboxes Tool & Library</b></h2>
+by Jon O'Shaughnessy
 www.jonoshaughnessy.org/projects
 
 
-Legal and License: 
+<h2><b>Legal and License: </b></h2>
 
 	The MIT License
 
@@ -12,11 +13,11 @@ Legal and License:
 		Change it however you like
 		... all for free. In exchange, you have to give proper credit to www.jonoshaughnessy.org if you use it.
 	
-<b>Purpose:</b> 
+<h2><b>Purpose</b></h2>
 
 The goal is to create a dead simple library - for either experienced developers or those who know little to no coding - to easily build lightboxes.
 		
-What you can do:
+<h2><b>What you can do:</b></h2>
 
 	Create lightboxes in only two lines of code, like so:
 	
@@ -24,7 +25,7 @@ What you can do:
 		lightboxContentHelper(d1, "This is a lightbox content...", "Title");
 
 
-What's included:
+<h2><b>What's Included</b></h2>
 
 	index.html 				- simple html page with a couple of buttons that call the lightbox functions. Go here to www.jonoshaughnessy.org/
 	js/lightbox_examples 	- examples of lightbox functions
@@ -34,23 +35,22 @@ What's included:
 	css/lightbox.css		- css for the lightboxes
 	
 
-To Use:
+<h2><b>To Use</b></h2>
 
-	1) Make sure all of the includes (lines 4-8 in index.html) are included in the html page that you want to use the javascript.
-	2) Make sure the /js folder is located in the same directory
-	3) Create a new function to call a lightbox.
-		3a) copy/paste one of the example functions from lightbox_examples, for example:
+	1) Create a new function to call a lightbox.
+	
+		1a) copy/paste one of the example functions from lightbox_examples, for example:
 		
 		function example2() {
 			var d1 = generateLightBox("top", "right", "#c9c456");
 			lightboxContentHelper(d1, "This is a lightbox content... with a tiger. Rawr.", "Title", "imgs/tiger.jpg", "Button1");
 		}
 
-		3b) change the function name and the parameters to whatever you like (see lightbox_examples for more info on how to do this).
+		1b) change the function name and the parameters to whatever you like (see lightbox_examples for more info on how to do this).
  
-	4) Call your new function in your html page when you want it. In our examples, we set our lightboxes to appear when someone clicks one of the buttons in index.html:
+	2) Call your new function. In our examples, we set our lightboxes to appear when someone clicks one of the buttons in index.html, like this:
 	
 			<button onclick="example3();" class="buttonMedium buttonBase">Example 3</button>
 
-	5) Enjoy your new lightbox. 
+	3) Enjoy your new lightbox. 
 	
