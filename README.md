@@ -12,7 +12,7 @@ Legal and License:
 		Change it however you like
 		... all for free. In exchange, you have to give proper credit to www.jonoshaughnessy.org if you use it.
 	
-Purpose: 
+<b>Purpose:</b> 
 
 The goal is to create a dead simple library - for either experienced developers or those who know little to no coding - to easily build lightboxes.
 		
@@ -26,10 +26,10 @@ What you can do:
 
 What's included:
 
-	index.html 			- simple html page with a couple of buttons that call the lightbox functions. Go here to www.jonoshaughnessy.org/
-	js/lightbox_examples 		- examples of lightbox functions
+	index.html 				- simple html page with a couple of buttons that call the lightbox functions. Go here to www.jonoshaughnessy.org/
+	js/lightbox_examples 	- examples of lightbox functions
 	js/lightbox_library		- javascript definitions
-	js/libs				- jQuery
+	js/libs					- jQuery
 	css/buttons.css			- css for the buttons on the sample page
 	css/lightbox.css		- css for the lightboxes
 	
