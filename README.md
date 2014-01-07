@@ -2,6 +2,8 @@
 by Jon O'Shaughnessy
 www.jonoshaughnessy.org/projects
 
+<center><h2><a href="http://www.jonoshaughnessy.org/projects/projects/lightboxes">Demo</a></h2></center>
+
 
 <h2><b>Legal and License: </b></h2>
 
@@ -15,7 +17,7 @@ www.jonoshaughnessy.org/projects
 	
 <h2><b>Purpose</b></h2>
 
-The goal is to create a dead simple library - for either experienced developers or those who know little to no coding - to easily build lightboxes.
+The goal is to create a dead simple library to easily add popups/lightboxes to your app or website. Tons of documentation included. Appropriate for either experienced developers or those who know little to no coding.
 		
 <h2><b>What you can do:</b></h2>
 
