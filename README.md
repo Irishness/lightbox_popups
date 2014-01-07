@@ -4,9 +4,9 @@ www.jonoshaughnessy.org/projects
 
 Legal and License: 
 
-	The Creative Commons Attribution 3.0 License
+	The MIT License
 
-	This lightbox library is licensed under the Creative Commons Attribution 3.0 License, which means you can:
+	This lightbox library is licensed under the MIT License, which means you can:
 		Use it for personal stuff
 		Use it for commercial stuff
 		Change it however you like
@@ -15,8 +15,6 @@ Legal and License:
 Purpose: 
 
 The goal is to create a dead simple library - for either experienced developers or those who know little to no coding - to easily build lightboxes.
-
-		Create a lightbox with only two simple lines of code:
 		
 What you can do:
 
