@@ -21,7 +21,7 @@ The goal is to create a dead simple library to easily add popups/lightboxes to y
 		
 <h2><b>What you can do:</b></h2>
 
-	Create lightboxes in only two lines of code, like so:
+Create lightboxes in only two lines of code, like so:
 	
 		var d1 = generateLightBox("top", "right", "#c9c456");
 		lightboxContentHelper(d1, "This is a lightbox content...", "Title");
@@ -29,10 +29,10 @@ The goal is to create a dead simple library to easily add popups/lightboxes to y
 
 <h2><b>What's Included</b></h2>
 
-	index.html 				- simple html page with a couple of buttons that call the lightbox functions. Go here to www.jonoshaughnessy.org/
-	js/lightbox_examples 	- examples of lightbox functions
-	js/lightbox_library		- javascript definitions
-	js/libs					- jQuery
+	index.html 				- simple html demo page
+	js/lightbox_examples 	- examples of lightbox functions. See them in the live demo link above
+	js/lightbox_library		- lightbox javascript definitions
+	js/libs					- a copy of JQuery
 	css/buttons.css			- css for the buttons on the sample page
 	css/lightbox.css		- css for the lightboxes
 	
@@ -41,14 +41,14 @@ The goal is to create a dead simple library to easily add popups/lightboxes to y
 
 	1) Create a new function to call a lightbox.
 	
-		1a) copy/paste one of the example functions from lightbox_examples, for example:
+		a) copy/paste one of the example functions from lightbox_examples, for example:
 		
 		function example2() {
 			var d1 = generateLightBox("top", "right", "#c9c456");
 			lightboxContentHelper(d1, "This is a lightbox content... with a tiger. Rawr.", "Title", "imgs/tiger.jpg", "Button1");
 		}
 
-		1b) change the function name and the parameters to whatever you like (see lightbox_examples for more info on how to do this).
+		b) change the function name and the parameters to whatever you like (see lightbox_examples for more info on how to do this).
  
 	2) Call your new function. In our examples, we set our lightboxes to appear when someone clicks one of the buttons in index.html, like this:
 	
